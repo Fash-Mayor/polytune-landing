@@ -199,7 +199,7 @@ export default function PolyTuneLanding() {
           </a>
           <a
             className="button button-quiet"
-            href="mailto:your-email@example.com"
+            href="mailto:mayowasamson03@gmail.com"
           >
             Talk to the founder
           </a>
