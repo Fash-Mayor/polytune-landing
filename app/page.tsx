@@ -191,7 +191,7 @@ export default function PolyTuneLanding() {
         <div className="hero-actions">
           <a
             className="button button-primary"
-            href="https://www.sideprojectors.com"
+            href="https://www.sideprojectors.com/project/97022/polytune"
             target="_blank"
             rel="noreferrer"
           >
