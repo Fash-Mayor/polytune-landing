@@ -12,6 +12,8 @@ const appScreens = [
   "7.jpeg",
 ];
 
+const githubUrl = "https://github.com/Fash-Mayor/PolyTune";
+
 const features = [
   {
     number: "01",
@@ -48,9 +50,19 @@ export default function PolyTuneLanding() {
           <img src="/PolyTuneLogo.png" alt="" width="42" height="42" />
           <span>PolyTune</span>
         </a>
-        <a className="nav-link" href="#acquire">
-          Acquire the app <span aria-hidden="true">↗</span>
-        </a>
+        <div className="nav-links">
+          <a
+            className="nav-link"
+            href={githubUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View on Github <span aria-hidden="true">↗</span>
+          </a>
+          <a className="nav-link" href="#acquire">
+            Acquire the app <span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </nav>
 
       <section id="top" className="hero-shell">
@@ -210,6 +222,14 @@ export default function PolyTuneLanding() {
         <a className="brand" href="#top">
           <img src="/PolyTuneLogo.png" alt="" width="30" height="30" />
           <span>PolyTune</span>
+        </a>
+        <a
+          className="footer-link"
+          href={githubUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on Github <span aria-hidden="true">↗</span>
         </a>
         <span>© 2026 PolyTune</span>
         <span>Made for the next repeat.</span>

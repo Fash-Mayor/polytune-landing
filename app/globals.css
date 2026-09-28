@@ -55,8 +55,14 @@ a {
   font-size: 13px;
   transition: color 0.2s ease;
 }
+.nav-links {
+  align-items: center;
+  display: flex;
+  gap: 28px;
+}
 .nav-link:hover,
-.text-link:hover {
+.text-link:hover,
+.footer-link:hover {
   color: var(--acid);
 }
 .nav-link span,
@@ -369,6 +375,14 @@ footer .brand {
   color: var(--foreground);
   font-size: 14px;
 }
+.footer-link {
+  color: var(--muted);
+  transition: color 0.2s ease;
+}
+.footer-link span {
+  color: var(--acid);
+  margin-left: 7px;
+}
 @media (max-width: 760px) {
   .hero-shell,
   .manifesto-section,
@@ -411,5 +425,8 @@ footer .brand {
     align-items: flex-start;
     flex-direction: column;
     gap: 15px;
+  }
+  .nav-links {
+    gap: 14px;
   }
 }
